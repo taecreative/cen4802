@@ -2,6 +2,12 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Fibonacci {
 
+    /**
+     * Recursively returns the nth term in the Fibonacci sequence
+     *
+     * @param n the term in the Fibonacci sequence to return
+     * @return the nth term in the Fibonacci sequence
+     */
     public static long fibRecursive(int n) {
         if (n <= 1) {
             return n;
